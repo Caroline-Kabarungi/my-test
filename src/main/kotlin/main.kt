@@ -3,8 +3,8 @@ fun main(){
     var newText= text[4].toString() +text[5] +text[6] +text[7]
     println(newText)
     reminder( 12, 7)
-    hello( "carol", 8)
-    me("carol")
+    hello( "sara", 8)
+    me("sara")
 
 }
 fun reminder(x:Int, y:Int) {
@@ -12,6 +12,8 @@ fun reminder(x:Int, y:Int) {
     println(a)
 
 }
+
+
 
 fun hello(name:String, age:Int) {
     var statement= "hi, my name is $name, and i am $age old"
